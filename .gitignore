@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+*.env
