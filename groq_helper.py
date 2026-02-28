@@ -5,7 +5,6 @@ groq_helper.py — Groq LLaMA3 integration for FinStab
 """
 
 import os
-import streamlit as st
 import numpy as np
 from dotenv import load_dotenv
 
@@ -15,8 +14,7 @@ load_dotenv()
 # 🔑 API KEY — paste your free key from console.groq.com
 # ─────────────────────────────────────────────────────────
 # GROQ_API_KEY = "GROQ_API_KEY"
-# GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-api_key = st.secrets["GROQ_API_KEY"]
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 MODEL        = "llama-3.1-8b-instant"
 
 
